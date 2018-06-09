@@ -1,0 +1,40 @@
+module.exports = {
+  'extends': [
+    'tslint:recommended',
+    'tslint-eslint-rules'
+  ],
+  'rules': {
+    'arrow-parens': false,
+    'block-spacing': [ true, 'always' ],
+    'brace-style': [ true, '1tbs', { 'allowSingleLine': true } ],
+    'curly': [ true, 'ignore-same-line' ],
+    'eofline': true,
+    'new-parens': true,
+    'no-consecutive-blank-lines': true,
+    'no-console': true,
+    'no-construct': true,
+    'no-multi-spaces': true,
+    'no-trailing-whitespace': true,
+    'no-unused-expression': true,
+    'no-unused-variable': true,
+    'no-var-keyword': true,
+    'object-curly-spacing': [ true, 'always' ],
+    'object-literal-key-quotes': [ true, 'as-needed' ],
+    'object-literal-shorthand': true,
+    'prefer-const': true,
+    'quotemark': [ true, 'single', 'jsx-double' ],
+    'semicolon': [ true, 'never' ],
+    'space-before-function-paren': false,
+    'space-in-parens': [ true, 'never' ],
+    'space-within-parens': false,
+    'ter-arrow-body-style': [ true, 'as-needed' ],
+    'ter-arrow-parens': [ true, 'as-needed' ],
+    'ter-arrow-spacing': [ true, { 'before': true, 'after': true } ],
+    'ter-func-call-spacing': [ true, 'never' ],
+    'ter-indent': [ true, 2 ],
+    'ter-no-mixed-spaces-and-tabs': { 'type': 'spaces' },
+    'ter-no-tabs': true,
+    'trailing-comma': [ true, { 'multiline': 'always', 'singleline': 'never' } ],
+    'variable-name': [ true, 'ban-keywords', 'check-format' ]
+  }
+}

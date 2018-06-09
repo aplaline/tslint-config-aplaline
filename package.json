@@ -1,0 +1,23 @@
+{
+  "name": "tslint-config-aplaline",
+  "version": "1.0.0",
+  "description": "Common Aplaline's configuration for TSLint",
+  "main": "index.js",
+  "author": "Matthias Hryniszak",
+  "license": "MIT",
+  "repository" : {
+    "type" : "git",
+    "url" : "github:aplaline/tslint-config-aplaline"
+  },
+  "keywords": [
+    "aplaline",
+    "tslint",
+    "tslintconfig"
+  ],
+  "peerDependencies": {
+    "tslint": ">= 5"
+  },
+  "dependencies": {
+    "tslint-eslint-rules": "^5.3.1"
+  }
+}
